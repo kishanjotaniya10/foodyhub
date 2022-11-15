@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: black !important;
+}
+
+.my-navbar {
+    background: white;
+}
+
+img {
+    height: 4.5rem !important;
+}
+
+.logo {
+    font-size: 3rem !important;
+    color: black;
+    font-family: 'Rampart One', cursive;
+}
+
+a {
+    text-align: center;
+    color: black !important;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-family: 'Aclonica', sans-serif;
+    padding: 0px 20px !important;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#home {
+    background: url(images/bg2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+#home h1 {
+    font-size: 3.5rem;
+    margin: 0% 0% !important;
+    font-family: 'Rampart One', cursive;
+    color: white;
+}
+
+#home h2 {
+    font-size: 3rem;
+    margin: 0% 0% !important;
+    color: white;
+    font-family: 'Rampart One', cursive;
+}
+
+#home span {
+    color: yellow;
+}
+
+#about h1 {
+    color: red;
+    text-transform: uppercase;
+    font-family: 'Aclonica', sans-serif;
+}
+
+#about h2 {
+    color: #8080c4;
+    font-family: 'Aclonica', sans-serif;
+}
+
+#about h4 {
+    color: white;
+    font-family: 'Aclonica', sans-serif;
+}
+
+.about-image img {
+    width: 100%;
+    height: 446px !important;
+}
+
+#menu h1 {
+    color: red;
+    text-transform: uppercase;
+    font-family: 'Aclonica', sans-serif;
+}
+
+#menu img {
+    height: 250px !important;
+}
+
+#menu span {
+    text-decoration: line-through;
+}
+
+#menu h5,
+p {
+    font-family: 'Aclonica', sans-serif;
+}
+
+.card-body {
+    background: #cacaca;
+}
+
+#reviews h1 {
+    color: red;
+    text-transform: uppercase;
+    font-family: 'Aclonica', sans-serif;
+}
+
+#reviews h5,
+p {
+    font-family: 'Aclonica', sans-serif;
+}
+
+#contact h1 {
+    color: red;
+    text-transform: uppercase;
+    font-family: 'Aclonica', sans-serif;
+}
+
+#contact input,
+ ::placeholder,
+.my-btn-2 {
+    text-transform: uppercase;
+    font-family: 'Aclonica', sans-serif;
+    color: black !important;
+}
+
+footer {
+    width: 100%;
+    background-color: white;
+    padding: 27px 0px 5px 0px;
+}
+
+footer h1 {
+    font-family: 'Aclonica', sans-serif;
+    font-size: 1.6rem;
+    color: black;
+}
+
+@media screen and (min-width:100px) and (max-width:780px) {
+    .logo {
+        font-size: 2rem !important;
+        color: black;
+        font-family: 'Rampart One', cursive;
+    }
+}
